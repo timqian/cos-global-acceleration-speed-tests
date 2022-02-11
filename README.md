@@ -1,8 +1,6 @@
 # cos-global-acceleration-speed-tests
 
-对于位于sp-shanghai 的 COS 桶
-
-测试了在开启与关闭全球加速的情况下，下列操作所需时间 （每个操作测试了 10 次）
+对于位于sp-shanghai 的 COS 桶，测试了在开启与关闭全球加速的情况下，下列操作所需时间 （脚本默认每个操作测试 10 次）
 
 - 获取链接(getUrl)
 - 上传文件(putFile)
