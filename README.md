@@ -4,7 +4,7 @@
 
 ## How to test
 
-1. fill in `secretId` and `secretKey` [here]()
+1. fill in `secretId` and `secretKey` [here](https://github.com/timqian/cos-global-acceleration-speed-tests/blob/main/index.mjs#L19)
 2. Install dependencies and run script
 ```bash
 npm i
