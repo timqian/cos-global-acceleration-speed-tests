@@ -1,6 +1,12 @@
 # cos-global-acceleration-speed-tests
 
-对于使用 Global acceleration 和不使用的情况，分别测试获取链接(getUrl)，上传文件(putFile)和下载文件(getFile)所需要的时间
+对于位于sp-shanghai 的 COS 桶
+
+测试了在开启与关闭全球加速的情况下，下列操作所需时间
+
+- 获取链接(getUrl)
+- 上传文件(putFile)
+- 下载文件(getFile)
 
 ## How to test
 
@@ -17,7 +23,7 @@ node index.mjs
 1. 国内本地网络，通过全球加速访问上海 COS，速度与直接访问差不多，
 2. 在 GitHub 机器上，直接通过全球加速访问上海 COS，稳定性较差容易出现上传几分钟甚至需要 10 几分钟才成功的情况，使用全球加速之后稳定性提升
 
-### 1. 本地测试
+### 1. 本地测试(重庆电信)
 
 ```
 Shanghai, With global accelerate
